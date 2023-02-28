@@ -47,7 +47,7 @@
   </nav>
     <main>
       <aside>
-        <h2>Bienvenue dans notre pizzéria, où nous mettons tout en œuvre pour
+        <h2>Bienvenue dans notre pizzeria, où nous mettons tout en œuvre pour
           vous offrir les meilleures pizzas de la région !<br> </h2>
         <img
           src="./assets/images/pizza-6097011_1280-removebg-preview.png"
