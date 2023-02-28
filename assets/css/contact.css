@@ -1,0 +1,78 @@
+form {
+    padding: 30px;
+    background-color: white;
+    border-radius: 10px;
+  }
+  form h1 {
+    font-size: 20px;
+    text-align: center;
+  }
+
+  
+  form .separation {
+    width: 100%;
+    height: 1px;
+    background-color: #FF1800;
+  }
+  form .corps-formulaire {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+  }
+  form .corps-formulaire .groupe {
+    position: relative; /* Pour mettre positionner l’élément dans le flux normal de la page */
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+  form .corps-formulaire .gauche .groupe input {
+    margin-top: 5px;
+    padding: 10px 5px 10px 30px;
+    border: 1px solid #c9c9c9;
+    outline-color: #FF1800;
+    border-radius: 5px;
+  }
+
+  form .corps-formulaire .droite {
+    margin-left: 40px;
+  }
+  form .corps-formulaire .droite .groupe {
+    height: 100%;
+    margin-left: 60px;
+
+  }
+  form .corps-formulaire .droite .groupe textarea {
+    margin-top: 5px;
+    padding: 10px;
+    background-color: #f1f1f1;
+    border: 2px solid #FF1800;
+    outline: none;
+    border-radius: 5px;
+    resize: none;
+    height: 72%;
+  }
+  form .pied-formulaire button {
+    margin-top: 10px;
+    background-color: #FF1800;
+    color: white;
+    font-size: 15px;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    outline: none;
+    cursor: pointer;
+    transition: transform 0.5s;
+  }
+  form .pied-formulaire button:hover {
+    transform: scale(1.05);
+  }
+
+  
+  
+  @media screen and (max-width: 920px) {
+    form .corps-formulaire .droite {
+      margin-left: 0px;
+    }
+  }
+  

@@ -1,0 +1,118 @@
+/* Version mobile */
+
+@media screen and (max-width:900px){
+    
+    .boissons h1{
+        font-size: 40px;
+        color: #FF1800;
+        font-weight: bolder;
+        width: 50%;
+        padding: 15px;
+        background-color: white;
+        margin: 25px auto 0 auto;
+        border: 5px solid #FF1800;
+        border-radius: 15px;
+        text-align: center;
+        text-shadow: 3px -2px black;
+    }
+
+    .boissons img{
+        margin-top: 50px;
+        width: 100%;
+    }
+
+    #boissons h1{
+        background-color: white;
+        font-size: xx-large;
+        color: #FF1800;
+        font-weight: bold;
+        margin-top: 25px;
+        border: 3px solid #FF1800;
+        text-align: center;
+        text-shadow: 3px -2px black;
+    
+    }
+
+    #boissons li{
+        list-style-type: none;
+        font-weight: 600;
+        font-size: medium;
+    }
+
+    #canette, #bouteille{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    #canette p, #bouteille p{
+        font-size: x-large;
+        color: #FF1800;
+        font-weight: bolder;
+        border: 4px solid #FF1800;
+        padding: 3px;
+        background-color: white;
+    }
+}
+
+/* Version tablette paysage*/
+
+@media screen and (min-width:900px){
+
+
+    #boissons h1{
+        background-color: white;
+        font-size: 45px;
+        color: #FF1800;
+        font-weight: bold;
+        margin-top: 25px;
+        border: 6px solid #FF1800;
+        text-align: center;
+        text-shadow: 3px -2px black;
+    
+    }
+
+    #boissons li{
+        list-style-type: none;
+        font-weight: 800;
+        font-size: xx-large;
+        color: #FF1800;
+    }
+
+    #canette, #bouteille{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    #canette p, #bouteille p{
+        font-size: xx-large;
+        color: #FF1800;
+        font-weight: bolder;
+        border: 6px solid #FF1800;
+        padding: 3px;
+        background-color: white;
+    }
+
+    .boissons img{
+        display: block;
+        margin-top: 50px;
+        width: 40%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .boissons h1{
+        font-size: 60px;
+        color: #FF1800;
+        font-weight: bolder;
+        width: 30%;
+        padding: 15px;
+        background-color: white;
+        margin: 25px auto 0 auto;
+        border: 5px solid #FF1800;
+        border-radius: 15px;
+        text-align: center;
+        text-shadow: 3px -2px black;
+    }
+}

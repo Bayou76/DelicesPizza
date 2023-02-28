@@ -1,0 +1,432 @@
+body{
+    margin: 20px;
+}
+
+/*Version mobile*/
+
+@media screen and (max-width:667px){
+
+    
+    #tomate, #fraiche, #sucrees{
+        text-align: center;
+    }
+    .pizT{
+        background-color: #FF1800;
+        margin-bottom: 10px;
+    }
+    .titre{
+        font-size: xx-large;
+        text-align: center;
+        color: black;
+        font-weight: 700;
+        text-transform: uppercase;
+    }
+    
+    .ingredient{
+        font-size: large;
+        color: black;
+    }
+    
+    section > h1{
+        font-size: xx-large;
+        color: #FF1800;
+        font-weight: bold;
+        margin-top: 25px;
+        border: 3px solid #FF1800;
+        text-align: center;
+        text-shadow: 3px -2px black;
+    }
+    
+    #sucrees img{
+        width: 100px;
+    }
+    
+    .calz{
+        display: flex;
+        justify-content: center;
+    }
+
+    .sorte{
+        display:inline;
+        justify-content: center;
+        text-align: center;
+        list-style-type: none;
+    }
+    
+    .sorte li{
+        background-color: #FF1800;
+        border: 3px solid black;
+        border-radius: 15px;
+        color: white;
+        font-size: large;
+        margin: 5px;
+    }
+    
+    .toute{
+        background-color: black;
+        color: #FF1800;
+    }    
+
+    #prix{
+        display: flex;
+        justify-content: center;
+    }
+    
+    .taille {
+        margin: 5px;
+        background-color: white;
+        padding: 5px;
+        border-radius: 4px;
+        color: #FF1800;
+    }
+
+    .prix{
+        font-size: small;
+        margin:5px;
+        background-color: black;
+        border-radius: 4px;
+        color: white;
+        padding: 5px;
+        border-radius: 4px;
+    }
+    #compo{
+        background-color: #FF1800 ;
+        padding: 5px;
+    }
+
+    .titrecompo{
+        color: black; 
+        text-shadow: none;
+    }
+    
+    #compo ul{
+        display: flex;
+        justify-content: center;
+        color: white;
+    }
+    
+    #compo h2 {
+        text-align: center;
+        font-size: x-large;
+        font-weight: bolder;
+        color: black;
+    }
+    
+    #compo li{
+        list-style-type: none;
+        font-size: medium;
+        font-weight:bolder ;
+        margin: 3px;
+        
+    }
+    
+    #compo p:last-of-type{
+        text-align: center;
+        font-size: 13px;
+        font-weight: 800;
+        color: black;
+    }
+
+}
+
+
+
+
+/*Version TABLETTE, MOBILE PAYSAGE*/
+
+@media screen and (min-width:667px) and (max-width:1369px){
+
+
+    
+    #tomate, #fraiche, #sucrees{
+        text-align: center;
+    }
+    .pizT{
+        background-color: #FF1800;
+        margin-bottom: 10px;
+        padding: 5px;
+        border: 15px solid white;
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+        
+    }
+
+    .pizT img{
+
+        width: 250px;
+
+    }
+
+    .titre{
+        font-size: large;
+        text-align: center;
+        color: white;
+        font-weight: 700;
+        text-shadow: 2px 2px black;
+        text-transform: uppercase;
+    }
+    
+    .ingredient{
+        font-size: medium;
+        color: black;
+        background-color: white;
+        border-radius: 5px;
+    }
+    
+    section > h1{
+        font-size: xx-large;
+        color: #FF1800;
+        font-weight: bold;
+        margin-top: 25px;
+        border: 3px solid #FF1800;
+        text-align: center;
+        text-shadow: 3px -2px black;
+    }
+    
+    #sucrees img{
+        width: 50px;
+    }
+    
+    .calz{
+        display: flex;
+        justify-content: center;
+    }
+
+    .sorte{
+        display:flex;
+        justify-content: center;
+        text-align: center;
+        list-style-type: none;
+    }
+    
+    .sorte li{
+        background-color: #FF1800;
+        border: 3px solid black;
+        border-radius: 15px;
+        color: white;
+        font-size: large;
+        margin: 5px;
+        padding: 5px 15px;
+    }
+    
+    .toute{
+        background-color: black;
+        color: #FF1800;
+    }    
+    
+    #prix{
+        display: flex;
+        justify-content: center;
+    }
+
+    .taille {
+        font-size: medium;
+        margin: 2px;
+        background-color: white;
+        padding: 3px;
+        border-radius: 4px;
+        color: #FF1800;
+        font-weight: bold ;
+    }
+    
+    .prix {
+        font-size: small;
+        margin:2px;
+        background-color: black;
+        border-radius: 4px;
+        color: white;
+        padding: 3px;
+        border-radius: 4px;
+    }
+    #compo{
+        background-color: #FF1800 ;
+        padding: 5px;
+    }
+
+    .titrecompo{
+        color: black; 
+        text-shadow: none;
+    }
+    
+    #compo ul{
+        display: flex;
+        justify-content: center;
+        color: #FFF;
+    }
+    
+    #compo h2 {
+        text-align: center;
+        font-size: x-large;
+        font-weight: bolder;
+        color: black;
+    }
+    
+    #compo li{
+        list-style-type: none;
+        font-size: medium;
+        font-weight:bolder ;
+        margin: 3px;
+    }
+    
+    #compo p:last-of-type{
+        text-align: center;
+        font-size: medium;
+        font-weight: 800;
+        color: black;
+    }
+
+}
+
+/*Version DESKTOP*/
+
+@media screen and (min-width:1336px){
+
+
+    
+    #tomate, #fraiche, #sucrees{
+        text-align: center;
+    }
+    .pizT{
+        background-color: #FF1800;
+        margin-bottom: 10px;
+        padding: 5px;
+        border: 5px solid white;
+        width: 30%;
+        margin-left: auto;
+        margin-right: auto;
+        
+    }
+
+    .pizT img{
+
+        width: 250px;
+
+    }
+
+    .titre{
+        font-size: xx-large;
+        text-align: center;
+        color: white;
+        font-weight: 700;
+        text-shadow: 2px 2px black;
+        text-transform: uppercase;
+    }
+    
+    .ingredient{
+        font-size: x-large;
+        color: black;
+        background-color: white;
+        border-radius: 5px;
+    }
+    
+    section > h1{
+        font-size: xx-large;
+        color: #FF1800;
+        font-weight: bold;
+        margin-top: 25px;
+        border: 3px solid #FF1800;
+        text-align: center;
+        text-shadow: 3px -2px black;
+    }
+    
+    #sucrees img{
+        width: 50px;
+    }
+    
+    .calz{
+        display: flex;
+        justify-content: center;
+    }
+
+    .sorte{
+        display:flex;
+        justify-content: center;
+        text-align: center;
+        list-style-type: none;
+    }
+    
+    .sorte li{
+        background-color: #FF1800;
+        border: 3px solid black;
+        border-radius: 15px;
+        color: white;
+        font-size: xx-large;
+        margin: 5px;
+        padding: 5px 15px;
+    }
+    
+    .toute{
+        background-color: black;
+        color: #FF1800;
+    }   
+
+    #prix{
+        display: flex;
+        justify-content: center;
+        margin: 15px;
+    }
+
+    .taille {
+        font-size: 20px;
+        margin: 5px;
+        background-color: white;
+        padding: 3px;
+        border-radius: 4px;
+        color: #FF1800;
+        font-weight: bold ;
+    }
+
+    .prix {
+        font-size: 20px;
+        margin:5px;
+        background-color: black;
+        border-radius: 4px;
+        color: white;
+        padding: 3px;
+        border-radius: 4px;
+    }
+    #compo{
+        background-color: #FF1800 ;
+        padding: 5px;
+    }
+
+    .titrecompo{
+        color: black; 
+        text-shadow: none;
+    }
+    
+    #compo ul{
+        display: flex;
+        justify-content: center;
+        color: white;
+    }
+
+    #compo h1 {
+        text-align: center;
+        font-size: x-large;
+        font-weight: bolder;
+        color: black;
+    }
+    
+    #compo h2 {
+        text-align: center;
+        font-size: x-large;
+        font-weight: bolder;
+        color: black;
+    }
+    
+    #compo li{
+        list-style-type: none;
+        font-size: medium;
+        font-weight:bolder ;
+        margin: 3px;
+    }
+    
+    #compo p:last-of-type{
+        text-align: center;
+        font-size: large;
+        font-weight: 800;
+        color: black;
+    }
+}
