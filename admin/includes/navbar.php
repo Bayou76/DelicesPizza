@@ -10,6 +10,7 @@
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
         <?php 
             if(isset($_SESSION['username'])){
+              
               ?>
               <li class="nav-item">
                 <a class="nav-link" href="../../admin/views/inscriptionEmploye.php">Inscrire un nouveau employé</a>
