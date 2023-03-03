@@ -44,7 +44,7 @@
               </ul>
           </div>
       </div>
-  </nav>
+    </nav>
     <main>
       <aside>
         <h2>Bienvenue dans notre pizzeria, où nous mettons tout en œuvre pour

@@ -11,7 +11,7 @@
   <div class="form-group">
     <label for="client">Client</label>
     <select name="client_id" id="client" required onchange="getClientAddress()">
-      <option value="" disabled selected>Sélectionnez un client existant ou entrez les informations ci-dessous pour un nouveau client</option>
+      <option value="" disabled selected>client existant ou un nouveau client</option>
       <option value="">Nouveau client</option>
       <?php
         // Récupération des clients de la base de données

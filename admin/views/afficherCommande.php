@@ -10,6 +10,7 @@ require '../../admin/database/database.php';
 <div class="container">
 <h1 class="text-center text-danger text-uppercase mt-5">Liste des commandes</h1>
 
+<div class="table-responsive">
   <table class="table">
     <thead>
       <tr>
@@ -52,6 +53,7 @@ require '../../admin/database/database.php';
     ?>
     </tbody>
   </table>
+</div>
 </div>
 
 <?php   require '../includes/footer.php'; ?>
