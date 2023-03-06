@@ -161,7 +161,7 @@
   <div class='card text-center'></div>
   <div class="card-body">
     <div class="card-title bg-info fs-2">
-      Nombre de visite de la page carte des pizzas 
+      Nombre de visites de la page carte des pizzas 
     </div> 
     <div class="card-text fs-4"><?= $count ?> Visiteurs</div>
   </div>
