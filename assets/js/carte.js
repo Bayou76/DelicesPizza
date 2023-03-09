@@ -1,13 +1,13 @@
 // CARTE PIZZA//
 
-let toutes = document.querySelector(".toutes");
-let tomate = document.querySelector(".tomate");
-let fraiche = document.querySelector(".fraiche");
-let sucrees = document.querySelector(".sucrees");
+const toutes = document.querySelector(".toutes");
+const tomate = document.querySelector(".tomate");
+const fraiche = document.querySelector(".fraiche");
+const sucrees = document.querySelector(".sucrees");
 
-let tomate2 = document.getElementById("tomate");
-let fraiche2 = document.getElementById("fraiche");
-let sucrees2 = document.getElementById("sucrees");
+const tomate2 = document.getElementById("tomate");
+const fraiche2 = document.getElementById("fraiche");
+const sucrees2 = document.getElementById("sucrees");
 
 
 toutes.addEventListener('click', function(){
@@ -90,3 +90,5 @@ fraiche.addEventListener('click', function(){
       return false;
     }
   });
+
+  

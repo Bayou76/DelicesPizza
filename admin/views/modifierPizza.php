@@ -4,7 +4,7 @@
   require '../actions/pizzas/modifier_pizza.php';
   $requete = $bdd->prepare("SELECT * FROM pizzas");
   $requete->execute();
-  $pizza = $requete->fetch()
+  $pizza = $requete->fetch();
 ?>
 
 <h1 class="text-center text-danger text-uppercase mt-5">Modifier la pizza : <?= $pizza['nom']; ?></h1>

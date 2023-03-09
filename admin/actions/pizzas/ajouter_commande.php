@@ -1,6 +1,6 @@
 <?php
 
-// Connect to the database
+// Co database
 
 require('../../admin/database/database.php');
 
