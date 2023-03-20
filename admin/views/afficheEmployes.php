@@ -18,9 +18,9 @@
         while ($employes = $requete->fetch() and $role = $requeteUser->fetch()) {
     ?>
         <div class="col-sm-4 mt-4 text-light text-center">
-        <div class="card m-4 bg-success border border-4 border-dark">
+        <div class="employerL card m-4">
             <div class="card-body">
-                <h2 class="card-title text-uppercase text-dark border-3 border border-dark p-2"> <?= $role['role']; ?> </h2>
+                <h2 class="card-title text-uppercase border-3 border border-ligth p-2"> <?= $role['role']; ?> </h2>
                 <h3 class="card-title">Nom : <?= $employes['nom']; ?></h3>
                 <h3 class="card-title">Prénom : <?= $employes['prenom']; ?></h3>
                 <p class="card-tex">Poste : <?= $employes['poste']; ?> </p>

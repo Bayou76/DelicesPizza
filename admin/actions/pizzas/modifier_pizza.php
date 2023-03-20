@@ -1,9 +1,7 @@
 <?php
 
-
-
 // Connexion à la base de données
-require '../../admin/database/database.php';
+require('../../admin/database/database.php');
 
 if (isset($_POST['id']) && is_numeric($_POST['id'])) {
     // Récupération des données du formulaire

@@ -65,7 +65,7 @@
             <li class="list-group-item">Prix Mega: <?php echo $pizza['prix_mega']; ?>€</li>
           </ul>
           <div class="text-center py-4">
-            <a href="./modifierPizza.php?id=<?php echo $pizza['id']; ?>" class="btn btn-light">Modifier</a>
+            <a href="./modifierPizza.php?id=<?= $pizza['id']; ?>" class="btn btn-light">Modifier</a>
             <a href="../actions/pizzas/supp_pizza.php?id=<?php echo $pizza['id']; ?>" class="btn btn-light">Supprimer</a>
           </div>
         </div>

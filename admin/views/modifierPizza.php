@@ -2,8 +2,9 @@
   require '../includes/navbar.php';
   require '../database/database.php';
   require '../actions/pizzas/modifier_pizza.php';
-  $requete = $bdd->prepare("SELECT * FROM pizzas");
-  $requete->execute();
+  $id = $_GET['id'];
+  $requete = $bdd->prepare("SELECT * FROM pizzas WHERE id =?");
+  $requete->execute([$id]);
   $pizza = $requete->fetch();
 ?>
 
@@ -11,7 +12,7 @@
 <div class="form-container">
     <div class="row">
         <!-- Formulaire de modification d'une pizza -->
-      <form action="" method="post">
+      <form action="../actions/pizzas/modifier_pizza.php" method="post">
         <input type="hidden" name="id" value="<?php echo $pizza['id']; ?>">
         <div class="form-group">
           <label for="nom">Nom</label>
